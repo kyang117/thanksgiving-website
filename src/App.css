@@ -1,0 +1,44 @@
+html {
+  background: rgb(150, 69, 11);
+}
+
+.header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.bottomLeftPic{
+  width: 25%;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  transform: scaleX(-1);
+}
+
+.bottomRightPic{
+  width: 25%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.middleGIF{
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+.message{
+  position: absolute;
+  top: 63%;
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  font-family: Arial;
+  font-weight: bold;
+  color: rgb(255, 168, 28);
+}
